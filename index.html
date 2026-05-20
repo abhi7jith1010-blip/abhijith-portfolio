@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijith | Computer Engineering Student Portfolio</title>
+    <meta name="description" content="Personal portfolio of Abhijith, a passionate Computer Engineering Diploma student specialized in web development, systems engineering, and hardware-software integration.">
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         Header / Navigation
+         ========================================== -->
+    <header class="header" id="header">
+        <div class="container nav">
+            <a href="#home" class="logo" id="logo-link">
+                Abhijith<span>.</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#home" class="nav-link active" id="nav-home-link">Home</a></li>
+                    <li><a href="#about" class="nav-link" id="nav-about-link">About</a></li>
+                    <li><a href="#skills" class="nav-link" id="nav-skills-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" id="nav-projects-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link" id="nav-contact-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         Hero Section
+         ========================================== -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content reveal reveal-left active">
+                <div class="hero-subtitle">Welcome to my space</div>
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Abhijith</span></h1>
+                
+                <div class="hero-typed-container">
+                    <span class="hero-typed" id="typed-text"></span><span class="typed-cursor"></span>
+                </div>
+                
+                <p class="hero-desc">
+                    A computer engineering diploma student focused on web technologies, hardware-software systems, and modern software designs. Building efficient digital experiences.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary" id="cta-contact">Get In Touch</a>
+                    <a href="resume.pdf" download="Abhijith_Resume.pdf" class="btn btn-secondary" id="cta-resume">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal reveal-right active">
+                <div class="avatar-wrapper">
+                    <!-- Tech Chip Visual Icon -->
+                    <svg class="avatar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <rect x="9" y="9" width="6" height="6" rx="1" />
+                        <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         About Section
+         ========================================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal reveal-bottom">About Me</h2>
+            
+            <div class="about-grid">
+                <div class="about-details reveal reveal-left">
+                    <div class="about-text">
+                        <p>
+                            I am currently pursuing a <span>Diploma in Computer Engineering</span>. My academic journey has allowed me to delve into key technical concepts, including system architecture, data structures, database designs, and embedded software systems.
+                        </p>
+                        <p>
+                            I find passion in bridging the gap between hardware and software. I love writing clean, performant code, tweaking Linux configurations, and engineering web services. My goal is to continually learn and build robust technical solutions for real-world issues.
+                        </p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">9.2</div>
+                            <div class="stat-label">Academic CGPA</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-cards reveal reveal-right">
+                    <div class="info-card card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                        </div>
+                        <div class="info-content">
+                            <h3>Education</h3>
+                            <p>Diploma in Computer Engineering - Technical Education Board</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9.09 9 1-1a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        </div>
+                        <div class="info-content">
+                            <h3>Core Focus Areas</h3>
+                            <p>IoT Systems, Embedded C, Web Services, Network Configurations</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                        </div>
+                        <div class="info-content">
+                            <h3>My Philosophy</h3>
+                            <p>To design scalable software coupled with efficient and reliable system hardware implementations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         Skills Section
+         ========================================== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal reveal-bottom">My Tech Stack</h2>
+            
+            <div class="skills-grid">
+                <!-- Skill Card 1: Languages -->
+                <div class="card reveal reveal-left">
+                    <h3>Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C / C++</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript (ES6+)</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2: Web Technologies -->
+                <div class="card reveal reveal-fade">
+                    <h3>Web Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 / CSS3</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js / Express</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">RESTful APIs</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3: Systems & Hardwares -->
+                <div class="card reveal reveal-right">
+                    <h3>Systems & Hardware</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux / Bash CLI</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Arduino & Microcontrollers</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">IoT Network Protocols</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         Projects Section
+         ========================================== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title reveal reveal-bottom">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="card project-card reveal reveal-left" id="project-card-1">
+                    <div class="project-media">
+                        <div class="project-media-bg"></div>
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Arduino</span>
+                            <span class="project-tag">ESP8266</span>
+                            <span class="project-tag">C++</span>
+                        </div>
+                        <h3 class="project-title">Smart IoT Home Automation</h3>
+                        <p class="project-desc">
+                            Designed a web-controlled smart appliance system featuring real-time temperature, humidity monitoring, and remote relays powered by ESP8266 Wi-Fi module and local servers.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" id="project-1-code">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                                Code
+                            </a>
+                            <a href="#" class="project-link" id="project-1-demo">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card project-card reveal reveal-fade" id="project-card-2">
+                    <div class="project-media">
+                        <div class="project-media-bg"></div>
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Express</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <h3 class="project-title">Student Collaboration Hub</h3>
+                        <p class="project-desc">
+                            A collaborative platform built for engineering students to share study materials, run forum discussions, and manage micro-announcements. Features full authentication and document uploads.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" id="project-2-code">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                                Code
+                            </a>
+                            <a href="#" class="project-link" id="project-2-demo">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card project-card reveal reveal-right" id="project-card-3">
+                    <div class="project-media">
+                        <div class="project-media-bg"></div>
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 14 15 20 9"/><polyline points="14 9 20 9 20 15"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Linux</span>
+                            <span class="project-tag">Websockets</span>
+                        </div>
+                        <h3 class="project-title">Linux System Vital Monitor</h3>
+                        <p class="project-desc">
+                            A lightweight background agent that captures host system performance parameters (CPU usage, RAM allocation, temperatures, disk usage) and serves them via a glowing real-time dashboard.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" id="project-3-code">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                                Code
+                            </a>
+                            <a href="#" class="project-link" id="project-3-demo">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         Contact Section
+         ========================================== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal reveal-bottom">Get In Touch</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info reveal reveal-left">
+                    <h3>Contact Information</h3>
+                    <p class="hero-desc" style="margin-bottom: 2rem;">
+                        Feel free to reach out to me for internship positions, collaborations, or simply to talk tech! I'll try my best to get back to you.
+                    </p>
+                    
+                    <div class="contact-details-box">
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>abhijith@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Kerala, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-btn" id="github-link" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn" id="linkedin-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card reveal reveal-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-status" id="form-status"></div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder=" " required autocomplete="name">
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder=" " required autocomplete="email">
+                            <label for="email">Your Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" class="form-control" placeholder=" " required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" placeholder=" " required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="btn-submit" style="width: 100%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         Footer
+         ========================================== -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-text">
+                &copy; 2026 Abhijith. Designed & Engineered with <span>Neon Red</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
